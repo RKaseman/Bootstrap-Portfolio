@@ -1,4 +1,5 @@
 
+/* + */
 * {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background: #ffffff;
@@ -6,6 +7,7 @@
     margin: auto;
 }
 
+/* + */
 html, body {
     min-height: 100%;
     width: 100%;
@@ -13,6 +15,7 @@ html, body {
     background-color: lightsteelblue;
 }
 
+/* + */
 /* hyperlinks */
 a:link {
     color: #777777;
@@ -30,6 +33,7 @@ a:active {
     color: #4aaaa5;
 }
 
+/* + */
 /* universal */
 .nav-linkBorder {
     border-left: 1px solid #cccccc;
@@ -37,13 +41,12 @@ a:active {
 }
 
 .header {
-    /* width: 100%; */
     border-bottom: 2px solid #cccccc;
 }
 
 #divheader {
     width: 960px;
-    margin: -8px 0px 0px 361px;
+    /* margin: -8px 0px 0px 361px; */
     /* text-align: center; */
 }
 
@@ -54,6 +57,7 @@ p {
     padding: 16px 0px;
 }
 
+/* del */
 .floatL {
     float: left;
 }
@@ -62,6 +66,7 @@ p {
     float: right;
 }
 
+/* + */
 a {
     text-decoration: none;
 }
