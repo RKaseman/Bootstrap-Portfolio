@@ -43,15 +43,16 @@ a:active {
 
 /* + */
 .header {
-    height: 102px;
+    /* height: 102px; */
     border-bottom: 2px solid #cccccc;
+    padding-bottom: 0px;
 }
 /* ^ */
 
-#divheader {
+#divHeader {
     width: 100%;
-    /* margin: -8px 0px -9px 0px; */
-    /* text-align: center; */
+    margin: 0px;
+    text-align: center;
 }
 
 p {
@@ -61,20 +62,12 @@ p {
     padding: 16px 0px;
 }
 
-/* del */
-.floatL {
-    float: left;
-}
-
-.floatR {
-    float: right;
-}
-
 /* + */
 a {
     text-decoration: none;
 }
 
+/* + */
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     background: #4aaaa5;
@@ -83,12 +76,7 @@ h1 {
     margin-bottom: 0px;
     padding: 26px;
 }
-
-#navR {
-    /* line-height: 32px; */
-    /* text-align: right; */
-    padding: 0px 0px 0px 32px;
-}
+/* ^ */
 
 h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -118,12 +106,14 @@ h2 {
     transform: rotate(-90deg);
 }
 
+/* - */
 section {
     width: 896px;
     border: 2px solid #dddddd;
     margin: 32px auto;
     padding: 32px;
 }
+/* ^ */
 
 footer {
     position: fixed;
