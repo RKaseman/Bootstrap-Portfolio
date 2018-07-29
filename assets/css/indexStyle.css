@@ -1,5 +1,5 @@
 
-/* + */
+/* all */
 * {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background: #ffffff;
@@ -7,7 +7,6 @@
     margin: auto;
 }
 
-/* + */
 html, body {
     min-height: 100%;
     width: 100%;
@@ -32,21 +31,26 @@ a:hover {
 a:active {
     color: #4aaaa5;
 }
+/* ^ */
 
 /* + */
 /* universal */
-.nav-linkBorder {
+#borderLR {
     border-left: 1px solid #cccccc;
     border-right: 1px solid #cccccc;
 }
+/* ^ */
 
+/* + */
 .header {
+    height: 102px;
     border-bottom: 2px solid #cccccc;
 }
+/* ^ */
 
 #divheader {
-    width: 960px;
-    /* margin: -8px 0px 0px 361px; */
+    width: 100%;
+    /* margin: -8px 0px -9px 0px; */
     /* text-align: center; */
 }
 
@@ -75,13 +79,15 @@ h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     background: #4aaaa5;
     color: #ffffff;
-    padding: 32px;
+    margin-top: -8px;
+    margin-bottom: 0px;
+    padding: 26px;
 }
 
-nav {
-    line-height: 32px;
-    text-align: right;
-    padding: 32px 0px 32px 32px;
+#navR {
+    /* line-height: 32px; */
+    /* text-align: right; */
+    padding: 0px 0px 0px 32px;
 }
 
 h2 {
