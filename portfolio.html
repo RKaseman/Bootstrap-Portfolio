@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en-us">
 
@@ -19,7 +20,6 @@
 </head>
 
 <body>
-    <!-- main nav -->
     <nav class="navbar navbar-expand-lg header">
         <div class="container-fluid">
             <div class="row" id="divHeader">
@@ -43,13 +43,24 @@
         </div>
     </nav>
 
-    <div class="container">
+    <div class="container" id="container">
 
-        <div>
+        <div class="row">
             <h2>Evolution of a Coder's Projects</h2>
         </div>
 
-        <div>
+        <!-- <div class="container"> -->
+            <div class="row justify-content-start">
+                <div class="col-md">
+                    <img src="assets\images\dummy200x150.jpg" alt="Project example 1" width="200px" height="150px">
+                </div>
+                <div class="col-md">
+                    <img src="assets\images\dummy200x150.jpg" alt="Project example 1" width="200px" height="150px">
+                </div>
+            </div>
+        <!-- </div> -->
+
+        <div class="row">
             <div class="imgProject">
                 <img src="assets\images\dummy200x150.jpg" alt="Project example 1" width="200px" height="150px">
             </div>
@@ -59,7 +70,7 @@
             </div>
         </div>
 
-        <div>
+        <div class="row">
             <div class="imgProject">
                 <img src="assets\images\dummy200x150.jpg" alt="Project example 1" width="200px" height="150px">
             </div>
@@ -69,17 +80,7 @@
             </div>
         </div>
 
-        <div>
-            <div class="imgProject">
-                <img src="assets\images\dummy200x150.jpg" alt="Project example 1" width="200px" height="150px">
-            </div>
-
-            <div class="imgProject">
-                <img src="assets\images\dummy200x150.jpg" alt="Project example 1" width="200px" height="150px">
-            </div>
-        </div>
-
-        <div>
+        <div class="row">
             <div class="imgProject">
                 <img src="assets\images\dummy200x150.jpg" alt="Project example 1" width="200px" height="150px">
             </div>
@@ -91,7 +92,7 @@
 
     </div>
 
-    <footer>
+    <footer class="fixed-bottom">
         &#169; 2018
     </footer>
 
