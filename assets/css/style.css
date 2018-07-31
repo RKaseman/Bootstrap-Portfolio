@@ -34,35 +34,26 @@ a:hover {
 a:active {
     color: #4aaaa5;
 }
-/* ^ */
 
-/* navbar */
 .header {
     border-bottom: 2px solid #cccccc;
     padding-bottom: 0px;
 }
 
-#divHeader {
-    width: 100%;
-    margin: 0px;
-    text-align: center;
-}
-
-#borderLR {
-    border-left: 1px solid #cccccc;
-    border-right: 1px solid #cccccc;
+.iconBar {
+    width: 32px;
+    height: 6px;
+    background-color: #777777;
+    margin: 6px 0;
 }
 
 #container {
-    width: 960px;
+    max-width: 960px;
     border: 2px solid #dddddd;
-    margin-top: 32px;
-    margin-bottom: 96px;
+    margin: 32px auto 96px auto;
     padding: 32px;
 }
-/* ^ */
 
-/* + */
 #logo {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 32px;
@@ -78,7 +69,6 @@ a:active {
     background: #ffffff;
     border: none;
 }
-/* ^ */
 
 h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -87,8 +77,6 @@ h2 {
     border-bottom: 4px solid #dddddd;
     padding: 32px;
 }
-
-/* gobal end */
 
 /* bio page */
 p {
@@ -104,9 +92,10 @@ p {
 
 /* ^ bio pic position */
 .img {
+    width: 32%;
+    height: 32%;
     float: left;
-    margin: 32px -318px 8px -32px;
-    padding: 32px 0px;
+    margin: 32px;
 }
 
 /* ^ bio pic rotation */
