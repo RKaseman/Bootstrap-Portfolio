@@ -40,20 +40,6 @@ a:active {
     padding-bottom: 0px;
 }
 
-.iconBar {
-    width: 32px;
-    height: 6px;
-    background-color: #777777;
-    margin: 6px 0;
-}
-
-#container {
-    max-width: 960px;
-    border: 2px solid #dddddd;
-    margin: 32px auto 96px auto;
-    padding: 32px;
-}
-
 #logo {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 32px;
@@ -65,9 +51,23 @@ a:active {
     padding: 16px;
 }
 
+.iconBar {
+    width: 32px;
+    height: 6px;
+    background-color: #777777;
+    margin: 6px 0;
+}
+
 #btn-group {
     background: #ffffff;
     border: none;
+}
+
+#container {
+    max-width: 960px;
+    border: 2px solid #dddddd;
+    margin: 32px auto 96px auto;
+    padding: 32px;
 }
 
 h2 {
@@ -77,44 +77,6 @@ h2 {
     border-bottom: 4px solid #dddddd;
     padding: 32px;
 }
-
-/* bio page */
-p {
-    line-height: 24px;
-    margin-top: -16px;
-    margin-bottom: 16px;
-    padding: 16px 0px;
-}
-
-#bio {
-    margin: 32px 0px;
-}
-
-/* ^ bio pic position */
-.img {
-    width: 32%;
-    height: 32%;
-    float: left;
-    margin: 32px;
-}
-
-/* ^ bio pic rotation */
-.rotateimg-90 {
-    -webkit-transform:rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-}
-
-/* ? */
-section {
-    width: 896px;
-    border: 2px solid #dddddd;
-    margin: 32px auto;
-    padding: 32px;
-}
-/* ^ */
 
 footer {
     height: 64px;
@@ -127,13 +89,25 @@ p.footer {
     background: #666666;
 }
 
-/* ? */
-.clearfix::after {
-    clear: both;
-    content: "";
-    display: block;
+/* bio page */
+p {
+    line-height: 24px;
+    margin-top: -16px;
+    margin-bottom: 16px;
+    padding: 16px 0px;
 }
-/* ^ */
+
+/* ^ bio pic position */
+.img {
+    width: 32%;
+    height: 32%;
+    float: left;
+    margin: 32px;
+}
+
+#bio {
+    margin: 32px 0px;
+}
 
 /* portfolio page */
 .imgProject {
